@@ -1,0 +1,51 @@
+# Build directories
+build/
+cmake-build-*/
+bin/
+*.app
+*.exe
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+*.user
+*.user.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiler outputs
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.cache
+
+# pngquant binaries (comment out if you want to track them)
+# resources/pngquant/mac/pngquant
+# resources/pngquant/win/pngquant.exe
+# resources/pngquant/linux/pngquant
